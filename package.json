@@ -1,0 +1,32 @@
+{
+  "name": "use-listen",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "prepublish": "tsc",
+  "author": "Simon Engledew",
+  "license": "MIT",
+  "homepage": "https://github.com/simon-engledew/use-listen",
+  "peerDependencies": {
+    "react": "^16.x"
+  },
+  "files": [
+    "dist/**"
+  ],
+  "devDependencies": {
+    "@testing-library/react": "^10.4.7",
+    "@types/jest": "^26.0.7",
+    "@types/react": "^16.9.43",
+    "@zeit/ncc": "^0.21.0",
+    "jest": "^26.1.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "ts-jest": "^26.1.4",
+    "typescript": "^3.9.7"
+  }
+}

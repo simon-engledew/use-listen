@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2015",
+    "rootDir": "./src",
+    "jsx": "react",
+    "declaration": true,
+    "outDir": "./dist",
+    "sourceMap": true,
+    "downlevelIteration": true,
+    "esModuleInterop": true,
+    "lib": ["dom", "es2015", "es2016", "esnext.asynciterable"],
+    "strict": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "exclude": ["node_modules", "**/node_modules/*", "src/*.test.*", "dist/**"]
+}
